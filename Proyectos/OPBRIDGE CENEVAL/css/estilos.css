@@ -1,0 +1,31 @@
+body{
+    background-color: steelblue;
+    position: relative;
+
+}
+.img-ECD {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px; /* ajusta tamaño */
+}
+
+.img-Ceneval {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; /* ajusta tamaño */
+}
+
+.contenedor-imgs {
+    display: flex;
+    justify-content: space-between; /* izquierda, centro, derecha */
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contenedor-imgs img {
+    width: 200px;
+}
+
+
